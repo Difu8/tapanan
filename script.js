@@ -1,1 +1,116 @@
-const _0x245c7e=_0x4616;(function(_0x3f5336,_0x126c07){const _0x581618=_0x4616,_0x2afc97=_0x3f5336();while(!![]){try{const _0x3571ed=parseInt(_0x581618(0xcb))/0x1*(parseInt(_0x581618(0xb5))/0x2)+parseInt(_0x581618(0xc3))/0x3*(parseInt(_0x581618(0x9c))/0x4)+-parseInt(_0x581618(0xc2))/0x5+parseInt(_0x581618(0xc1))/0x6*(-parseInt(_0x581618(0xa8))/0x7)+-parseInt(_0x581618(0xb3))/0x8+-parseInt(_0x581618(0xab))/0x9+parseInt(_0x581618(0xa0))/0xa;if(_0x3571ed===_0x126c07)break;else _0x2afc97['push'](_0x2afc97['shift']());}catch(_0x9cd1a4){_0x2afc97['push'](_0x2afc97['shift']());}}}(_0x2683,0xb3ff2));const videoPopup=document[_0x245c7e(0xa2)](_0x245c7e(0xae)),video=document[_0x245c7e(0xa2)](_0x245c7e(0xbb)),closeButton=document[_0x245c7e(0xa2)]('close-btn'),bitrateSelector=document['getElementById'](_0x245c7e(0xc7)),volumeSlider=document[_0x245c7e(0xa2)](_0x245c7e(0xc5)),volumeMinus=document[_0x245c7e(0xa2)](_0x245c7e(0xb7)),volumePlus=document[_0x245c7e(0xa2)](_0x245c7e(0xb0)),tvChannelsLink=document[_0x245c7e(0xa2)](_0x245c7e(0xc8)),movieChannelsLink=document['getElementById'](_0x245c7e(0xcd)),channelListTv=document[_0x245c7e(0xa2)]('channel-list-tv'),channelListMovies=document[_0x245c7e(0xa2)]('channel-list-movies'),watchNowButtons=document[_0x245c7e(0xad)](_0x245c7e(0xaa));function _0x4616(_0x3011a8,_0x19778a){const _0x26832d=_0x2683();return _0x4616=function(_0x461669,_0x450702){_0x461669=_0x461669-0x9b;let _0x44f07a=_0x26832d[_0x461669];return _0x44f07a;},_0x4616(_0x3011a8,_0x19778a);}function _0x2683(){const _0x1b7bcc=['325120RkTXpB','424869JLsSHp','href','volume-slider','grid','bitrate-selector','tv-channels-link','none','flex','74iYwhHH','<option\x20value=\x22','movie-channels-link','play','attachMedia','data-href','Events','src','display','loadedmetadata','isSupported','remove','application/vnd.apple.mpegurl','12AKVwEv','auto','addEventListener','data-stream','6898620qeWdNB','levels','getElementById','max','active','forEach','classList','input','84399Nascyt','canPlayType','.watch-now-btn','936495MMpInM','innerHTML','querySelectorAll','video-popup','Your\x20browser\x20does\x20not\x20support\x20HLS\x20streaming.','volume-plus','destroy','min','3849440flRqqB','change','9328cUXcnO','getAttribute','volume-minus','style','add','bitrate','video','click','MANIFEST_PARSED','value','currentLevel','preventDefault','36urxXiF'];_0x2683=function(){return _0x1b7bcc;};return _0x2683();}let hls;function populateBitrateSelector(_0x56796b){const _0x33c336=_0x245c7e;bitrateSelector[_0x33c336(0xac)]='<option\x20value=\x22auto\x22>Auto</option>',_0x56796b[_0x33c336(0xa5)]((_0x332acd,_0x2150f4)=>{const _0xfaa1d5=_0x33c336;let _0xebacf8=_0x332acd[_0xfaa1d5(0xba)]/0x3e8;bitrateSelector[_0xfaa1d5(0xac)]+=_0xfaa1d5(0xcc)+_0x2150f4+'\x22>Quality\x20'+(_0x2150f4+0x1)+':\x20'+_0xebacf8+'\x20kbps</option>';}),bitrateSelector[_0x33c336(0x9e)](_0x33c336(0xb4),function(){const _0x218573=_0x33c336;let _0x417d77=this['value'];_0x218573(0x9d)===_0x417d77?hls[_0x218573(0xbf)]=-0x1:hls[_0x218573(0xbf)]=parseInt(_0x417d77,0xa);});}tvChannelsLink[_0x245c7e(0x9e)](_0x245c7e(0xbc),function(_0x141262){const _0xc43a8b=_0x245c7e;_0x141262[_0xc43a8b(0xc0)](),tvChannelsLink[_0xc43a8b(0xa6)][_0xc43a8b(0xb9)](_0xc43a8b(0xa4)),movieChannelsLink['classList'][_0xc43a8b(0xd6)](_0xc43a8b(0xa4)),channelListTv[_0xc43a8b(0xb8)]['display']=_0xc43a8b(0xc6),channelListMovies[_0xc43a8b(0xb8)][_0xc43a8b(0xd3)]=_0xc43a8b(0xc9);}),movieChannelsLink[_0x245c7e(0x9e)](_0x245c7e(0xbc),function(_0x58af8d){const _0xe68adf=_0x245c7e;_0x58af8d[_0xe68adf(0xc0)](),movieChannelsLink[_0xe68adf(0xa6)][_0xe68adf(0xb9)](_0xe68adf(0xa4)),tvChannelsLink[_0xe68adf(0xa6)][_0xe68adf(0xd6)](_0xe68adf(0xa4)),channelListTv[_0xe68adf(0xb8)][_0xe68adf(0xd3)]=_0xe68adf(0xc9),channelListMovies['style'][_0xe68adf(0xd3)]=_0xe68adf(0xc6);}),watchNowButtons[_0x245c7e(0xa5)](_0x24e30e=>{const _0x44b272=_0x245c7e;_0x24e30e[_0x44b272(0x9e)]('click',function(_0x169b90){const _0x4c63d8=_0x44b272;_0x169b90[_0x4c63d8(0xc0)]();let _0x40225e=this[_0x4c63d8(0xb6)](_0x4c63d8(0x9f)),_0x13d813=this[_0x4c63d8(0xb6)](_0x4c63d8(0xd0));_0x13d813?window['location'][_0x4c63d8(0xc4)]=_0x13d813:_0x40225e&&(Hls[_0x4c63d8(0xd5)]()?(hls&&hls['destroy'](),(hls=new Hls())['loadSource'](_0x40225e),hls[_0x4c63d8(0xcf)](video),hls['on'](Hls[_0x4c63d8(0xd1)][_0x4c63d8(0xbd)],function(){const _0x400cde=_0x4c63d8;video[_0x400cde(0xce)]();}),hls['on'](Hls['Events']['LEVEL_LOADED'],function(_0x22b98e,_0x494a91){const _0x53dd1a=_0x4c63d8;populateBitrateSelector(_0x494a91[_0x53dd1a(0xa1)]);})):video[_0x4c63d8(0xa9)](_0x4c63d8(0x9b))?(video[_0x4c63d8(0xd2)]=_0x40225e,video[_0x4c63d8(0x9e)](_0x4c63d8(0xd4),function(){video['play']();})):alert(_0x4c63d8(0xaf)),videoPopup['style']['display']=_0x4c63d8(0xca));});}),closeButton[_0x245c7e(0x9e)](_0x245c7e(0xbc),function(){const _0x30ce11=_0x245c7e;videoPopup[_0x30ce11(0xb8)]['display']='none',video['pause'](),video[_0x30ce11(0xd2)]='',hls&&hls[_0x30ce11(0xb1)]();}),videoPopup[_0x245c7e(0x9e)](_0x245c7e(0xbc),function(_0x43d74b){const _0x2d0918=_0x245c7e;_0x43d74b['target']===videoPopup&&closeButton[_0x2d0918(0xbc)]();}),volumeMinus['addEventListener'](_0x245c7e(0xbc),function(){const _0x2bc874=_0x245c7e;volumeSlider[_0x2bc874(0xbe)]=Math[_0x2bc874(0xa3)](0x0,volumeSlider[_0x2bc874(0xbe)]-0x5),video['volume']=volumeSlider[_0x2bc874(0xbe)]/0x64;}),volumePlus[_0x245c7e(0x9e)]('click',function(){const _0x4cf0c1=_0x245c7e;volumeSlider[_0x4cf0c1(0xbe)]=Math[_0x4cf0c1(0xb2)](0x64,volumeSlider['value']+0x5),video['volume']=volumeSlider[_0x4cf0c1(0xbe)]/0x64;}),volumeSlider[_0x245c7e(0x9e)](_0x245c7e(0xa7),function(){const _0xb129a4=_0x245c7e;let _0x2b192e=this[_0xb129a4(0xbe)]/0x64;video['volume']=_0x2b192e;}),tvChannelsLink[_0x245c7e(0xbc)]();
+const videoPopup = document.getElementById('video-popup');
+    const video = document.getElementById('video');
+    const closeButton = document.getElementById('close-btn');
+    const bitrateSelector = document.getElementById('bitrate-selector');
+    const volumeSlider = document.getElementById('volume-slider');
+    const volumeMinus = document.getElementById('volume-minus');
+    const volumePlus = document.getElementById('volume-plus');
+    const tvChannelsLink = document.getElementById('tv-channels-link');
+    const movieChannelsLink = document.getElementById('movie-channels-link');
+    const channelListTv = document.getElementById('channel-list-tv');
+    const channelListMovies = document.getElementById('channel-list-movies');
+    const watchNowButtons = document.querySelectorAll('.watch-now-btn');
+    let hls;
+
+    tvChannelsLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        tvChannelsLink.classList.add('active');
+        movieChannelsLink.classList.remove('active');
+        channelListTv.style.display = 'grid';
+        channelListMovies.style.display = 'none';
+    });
+
+    movieChannelsLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        movieChannelsLink.classList.add('active');
+        tvChannelsLink.classList.remove('active');
+        channelListTv.style.display = 'none';
+        channelListMovies.style.display = 'grid';
+    });
+
+    watchNowButtons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            const streamUrl = this.getAttribute('data-stream');
+            const href = this.getAttribute('data-href');
+
+            if (href) {
+                window.location.href = href;
+            } else if (streamUrl) {
+                if (Hls.isSupported()) {
+                    if (hls) {
+                        hls.destroy();
+                    }
+                    hls = new Hls();
+                    hls.loadSource(streamUrl);
+                    hls.attachMedia(video);
+                    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                        video.play();
+                    });
+                    hls.on(Hls.Events.LEVEL_LOADED, function (event, data) {
+                        populateBitrateSelector(data.levels);
+                    });
+                } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                    video.src = streamUrl;
+                    video.addEventListener('loadedmetadata', function () {
+                        video.play();
+                    });
+                } else {
+                    alert('Your browser does not support HLS streaming.');
+                }
+
+                videoPopup.style.display = 'flex';
+            }
+        });
+    });
+
+    closeButton.addEventListener('click', function() {
+        videoPopup.style.display = 'none';
+        video.pause();
+        video.src = '';
+        if (hls) {
+            hls.destroy();
+        }
+    });
+
+    videoPopup.addEventListener('click', function(event) {
+        if (event.target === videoPopup) {
+            closeButton.click();
+        }
+    });
+
+    volumeMinus.addEventListener('click', function() {
+        volumeSlider.value = Math.max(0, volumeSlider.value - 5); // Decrease volume by 5
+        video.volume = volumeSlider.value / 100; // Update video volume
+    });
+
+    volumePlus.addEventListener('click', function() {
+        volumeSlider.value = Math.min(100, volumeSlider.value + 5); // Increase volume by 5
+        video.volume = volumeSlider.value / 100; // Update video volume
+    });
+
+    volumeSlider.addEventListener('input', function() {
+        const volume = this.value / 100; // Convert to a value between 0 and 1
+        video.volume = volume; // Set the video volume
+    });
+
+    function populateBitrateSelector(levels) {
+        bitrateSelector.innerHTML = '<option value="auto">Auto</option>';
+
+        levels.forEach((level, index) => {
+            const bitrate = level.bitrate / 1000;
+            bitrateSelector.innerHTML += `<option value="${index}">Quality ${index + 1}: ${bitrate} kbps</option>`;
+        });
+
+        bitrateSelector.addEventListener('change', function() {
+            const selectedIndex = this.value;
+            if (selectedIndex === 'auto') {
+                hls.currentLevel = -1;
+            } else {
+                hls.currentLevel = parseInt(selectedIndex, 10);
+            }
+        });
+    }
+
+    // Initialize to show TV channels by default
+    tvChannelsLink.click();
