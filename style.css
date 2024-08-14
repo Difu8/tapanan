@@ -21,7 +21,7 @@ body {
             width: 90%;
             max-width: 480px;
             background: black;
-            padding-bottom: 52px;
+            padding-bottom: 80px;
         }
         #video-popup video {
             width: 100%;
@@ -41,7 +41,8 @@ body {
             text-align: center;
         }
         #fullscreen-btn {
-            right: 80px;
+            right: 10px;
+            bottom: 46px;
         }
         #close-btn {
             right: 10px;
@@ -61,7 +62,7 @@ body {
         #volume-controls {
             position: absolute;
             bottom: 10px;
-            left: 41%;
+            left: 50%;
             transform: translateX(-50%);
             display: flex;
             align-items: center;
@@ -69,7 +70,7 @@ body {
             z-index: 1;
         }
         #volume-slider {
-            width: 90px;
+            width: 80px;
             margin: 0 5px;
         }
         #volume-minus, #volume-plus {
@@ -178,7 +179,8 @@ body {
                 font-size: 14px;
             }
             #fullscreen-btn {
-                right: 78px;
+                right: 10px;
+                bottom: 46px;
             }
             #close-btn {
                 right: 10px;
