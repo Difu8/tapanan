@@ -1,1 +1,11 @@
-function _0x240a(){var _0x4e5834=['click','4lILTUd','281413yJWzQj','727785EHkzYz','3EFssEO','313238clKoXq','3054185ivtqYc','30443BdxQxF','msRequestFullscreen','516kwSMjh','3655300AtGbGt','webkitRequestFullscreen','addEventListener','requestFullscreen','732393zGSQSw','8Rxrjsa','774lHmOnq','mozRequestFullScreen'];_0x240a=function(){return _0x4e5834;};return _0x240a();}var _0x42d9af=_0x4c05;function _0x4c05(_0x4cbf5b,_0x129245){var _0x240af3=_0x240a();return _0x4c05=function(_0x4c05d5,_0x1d2621){_0x4c05d5=_0x4c05d5-0x1bf;var _0x1490f6=_0x240af3[_0x4c05d5];return _0x1490f6;},_0x4c05(_0x4cbf5b,_0x129245);}(function(_0x1e9da2,_0x1d3f61){var _0x34fcd8=_0x4c05,_0x445f08=_0x1e9da2();while(!![]){try{var _0x43e3ae=parseInt(_0x34fcd8(0x1c7))/0x1+parseInt(_0x34fcd8(0x1c9))/0x2*(parseInt(_0x34fcd8(0x1c8))/0x3)+parseInt(_0x34fcd8(0x1c5))/0x4*(-parseInt(_0x34fcd8(0x1ca))/0x5)+-parseInt(_0x34fcd8(0x1c2))/0x6*(parseInt(_0x34fcd8(0x1cb))/0x7)+-parseInt(_0x34fcd8(0x1c1))/0x8*(parseInt(_0x34fcd8(0x1c0))/0x9)+-parseInt(_0x34fcd8(0x1ce))/0xa+-parseInt(_0x34fcd8(0x1c6))/0xb*(-parseInt(_0x34fcd8(0x1cd))/0xc);if(_0x43e3ae===_0x1d3f61)break;else _0x445f08['push'](_0x445f08['shift']());}catch(_0x16b7d7){_0x445f08['push'](_0x445f08['shift']());}}}(_0x240a,0x5948c),fullscreenButton[_0x42d9af(0x1d0)](_0x42d9af(0x1c4),function(){var _0x148f5e=_0x42d9af;video[_0x148f5e(0x1bf)]?video[_0x148f5e(0x1bf)]():video[_0x148f5e(0x1c3)]?video[_0x148f5e(0x1c3)]():video[_0x148f5e(0x1cf)]?video[_0x148f5e(0x1cf)]():video[_0x148f5e(0x1cc)]&&video['msRequestFullscreen']();}));
+fullscreenButton.addEventListener('click', function() {
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) { /* Firefox */
+            video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+            video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) { /* IE/Edge */
+            video.msRequestFullscreen();
+        }
+    });
